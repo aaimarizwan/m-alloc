@@ -22,6 +22,7 @@ function Login() {
     <div className="auth-container">
       <div className="auth-card">
         <h1 className="auth-title">Login</h1>
+        <p className="auth-demo-note">Demo version — use any email and password to continue.</p>
         <p className="auth-subtitle">Welcome back to m-alloc</p>
         
         <form onSubmit={handleSubmit} className="auth-form">

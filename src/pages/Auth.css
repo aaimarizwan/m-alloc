@@ -36,6 +36,14 @@
   text-align: center;
 }
 
+.auth-demo-note {
+  color: #a0aec0;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
 .auth-subtitle {
   color: #718096;
   text-align: center;
