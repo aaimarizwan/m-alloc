@@ -1,0 +1,138 @@
+.form-modal-content {
+  background: white;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.form-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.form-modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin: 0;
+}
+
+.form-modal-close {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #718096;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.form-modal-close:hover {
+  background: #f7f7f7;
+  color: #2d3748;
+}
+
+.form-modal-form {
+  padding: 2rem;
+}
+
+.form-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e5e5e5;
+}
+
+.form-modal-button {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.form-modal-button-cancel {
+  background: #e2e8f0;
+  color: #4a5568;
+}
+
+.form-modal-button-cancel:hover {
+  background: #cbd5e0;
+}
+
+.form-modal-button-submit {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.form-modal-button-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.form-modal-field {
+  margin-bottom: 1.5rem;
+}
+
+.form-modal-field label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+.form-modal-field input,
+.form-modal-field textarea,
+.form-modal-field select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: all 0.2s ease;
+}
+
+.form-modal-field input:focus,
+.form-modal-field textarea:focus,
+.form-modal-field select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-modal-field textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-modal-field .error-message {
+  color: #f56565;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.form-modal-field input.error,
+.form-modal-field textarea.error,
+.form-modal-field select.error {
+  border-color: #f56565;
+}
